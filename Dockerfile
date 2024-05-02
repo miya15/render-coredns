@@ -1,4 +1,4 @@
-FROM coredns/coredns:1.10.0
+FROM coredns/coredns:1.7.0
 
 EXPOSE 53 53/udp
 # SHELL [ "/bin/bash", "-ec" ]

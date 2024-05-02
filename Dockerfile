@@ -3,4 +3,4 @@ FROM coredns/coredns:1.11.1
 EXPOSE 53 53/udp
 VOLUME ["/etc/coredns"]
 ENTRYPOINT ["/coredns"]
-RUN sh -c 'ls -l'
+SHELL [ "/bin/sh", "ls -la" ]
